@@ -382,7 +382,7 @@ export default function SPPGDashboard() {
         </div>
       </aside>
 
-      <div className="flex-1">
+      <div className="flex-1 flex min-h-screen flex-col">
         <div className="flex items-center gap-3 border-b border-slate-200 bg-white px-4 py-3 md:hidden">
           <button onClick={() => setSidebarOpen((prev) => !prev)} aria-label="toggle navigation" className="rounded p-2 hover:bg-slate-100">
             <svg className="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -410,7 +410,7 @@ export default function SPPGDashboard() {
           </div>
         </header>
 
-        <main className="space-y-6 p-4 md:p-6">
+        <main className="flex-1 space-y-6 overflow-y-auto p-4 md:p-6">
           {activeSection === 'proposal' ? (
             <section className="rounded-xl border border-slate-200 bg-white p-5">
               <h2 className="mb-4 text-xl font-bold text-emerald-600">Proposal Pengadaan Bahan Baku</h2>
@@ -902,6 +902,13 @@ export default function SPPGDashboard() {
             </section>
           ) : null}
         </main>
+
+        <footer className="flex flex-col items-center justify-between gap-3 border-t border-slate-200 bg-white px-4 py-3 sm:flex-row sm:gap-4 sm:px-6 md:px-8 md:py-4">
+          <p className="text-center text-xs text-slate-600 sm:text-left sm:text-sm">© 2026 SIGIZI Guard. All Rights Reserved.</p>
+          <a href="/" className="w-full sm:w-auto">
+            <Button variant="outline" className="w-full sm:w-auto">Kembali ke Beranda</Button>
+          </a>
+        </footer>
       </div>
     </div>
   )
