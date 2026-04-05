@@ -35,9 +35,9 @@ export default function DashboardsSection() {
           <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-3">
             Dashboard SIGIZI
           </h2>
-          <p className="text-base sm:text-lg text-slate-600 max-w-2xl mx-auto px-2">
-            Pilih dashboard yang ingin Anda akses untuk memantau dan mengelola data terkait pengadaan MBG.
-          </p>
+            <p className="text-base sm:text-lg text-slate-600 max-w-2xl mx-auto px-2">
+            CATATAN: Dashboard di bawah ini merupakan prototype. Pada implementasi selanjutnya, setiap dashboard akan memerlukan autentikasi terverifikasi untuk dapat diakses.
+            </p>
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
