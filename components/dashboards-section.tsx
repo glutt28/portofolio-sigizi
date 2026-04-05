@@ -33,7 +33,7 @@ export default function DashboardsSection() {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-8 sm:mb-12">
           <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-3">
-            Dashboard Sekolah
+            Dashboard SIGIZI
           </h2>
           <p className="text-base sm:text-lg text-slate-600 max-w-2xl mx-auto px-2">
             Pilih dashboard yang ingin Anda akses untuk memantau dan mengelola data terkait pengadaan MBG.
